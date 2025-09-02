@@ -1,0 +1,11 @@
+:root{--balance-blue:#7DA9C7;--balance-dark:#145374;--muted:#e6f2f8}
+html,body,#root{height:100%;margin:0;font-family:Inter,Arial;background:linear-gradient(180deg,var(--muted),#f0f7fb)}
+.container{max-width:1200px;margin:0 auto;padding:20px}
+.header{background:var(--balance-blue);color:white;padding:18px;border-radius:8px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:center}
+.nav a{color:white;margin-right:12px;text-decoration:none;font-weight:600}
+.card{background:white;border-radius:8px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:16px}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #f1f5f9;text-align:left}
+.btn{background:var(--balance-dark);color:white;padding:8px 12px;border-radius:6px;border:none;cursor:pointer}
+.input{padding:8px;border-radius:6px;border:1px solid #cbd5e1}
+.filters{display:flex;gap:8px;align-items:center;margin-bottom:12px}
